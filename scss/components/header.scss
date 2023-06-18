@@ -1,0 +1,30 @@
+.header {
+  background-color: $dark;
+  &__container {
+    @extend %container;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__nav {
+  }
+}
+
+.logo {
+  &__img {
+  }
+}
+
+.nav {
+  &__list {
+    display: flex;
+  }
+  &__item {
+  }
+  &__link {
+  }
+}
+.button {
+}
+.batton--sub-heading {
+}

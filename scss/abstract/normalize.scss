@@ -4,4 +4,19 @@ body {
 }
 
 body {
+  @extend %noto;
+  @include font();
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }

@@ -6,6 +6,12 @@
   font-family: "Noto Sans", sans-serif;
 }
 
+%container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 %transition {
   transition: background-color 1s ease-in-out;
 }
