@@ -6,25 +6,27 @@
     align-items: center;
     justify-content: space-between;
   }
-  &__nav {
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 23px;
   }
-}
 
-.logo {
-  &__img {
+  &__lang {
+    color: $light;
   }
 }
 
 .nav {
   &__list {
     display: flex;
-  }
-  &__item {
+    gap: 30px;
   }
   &__link {
+    @extend %noto;
+    @include font(12px, 700, 16px, center);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $light;
   }
-}
-.button {
-}
-.batton--sub-heading {
 }

@@ -1,8 +1,16 @@
-$main-buttons: #54a757;
+$main-button: #54a757;
 $sub-heading: #29aae3;
+$sub-heading--hover: #269acd;
 $icon-color: #ffc65d;
 $card-bg: #f9f9f9;
 $section-bg: #e1e1e1;
 $optimization-color: #9033f9;
 $break-color: #ff5966;
 $dark: #000000;
+$light: #ffffff;
+$gradient: linear-gradient(
+  104.58deg,
+  rgba(0, 0, 0, 0.52) 55.87%,
+  rgba(0, 0, 0, 0.255667) 89.51%,
+  rgba(0, 0, 0, 0) 108.26%
+);

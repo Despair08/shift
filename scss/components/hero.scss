@@ -1,0 +1,28 @@
+.hero {
+  background-image: $gradient, url("./assets/bg-images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__container {
+    @extend %container;
+  }
+
+  &__title {
+    @extend %roboto;
+    @include font(48px, 500, 56px, left);
+    max-width: 815px;
+    padding: 166px 0 32px 0;
+    color: $light;
+  }
+
+  &__list {
+  }
+}
+.heto {
+  &__item {
+  }
+}
+.button {
+}
+.button--main {
+}
