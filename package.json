@@ -1,0 +1,13 @@
+{
+  "name": "shift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass --watch ./scss/main.scss ./style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
