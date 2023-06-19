@@ -1,12 +1,13 @@
-.hero__item, .hero__title, .button {
+@charset "UTF-8";
+.card__sub-title, .card__title, .poss__title, .hero__item, .hero__title, .button {
   font-family: "Roboto", sans-serif;
 }
 
-.nav__link, body {
+.card__item, .nav__link, body {
   font-family: "Noto Sans", sans-serif;
 }
 
-.hero__container, .header__container {
+.possibilities__container, .hero__container, .header__container {
   max-width: 1240px;
   padding: 0 20px;
   margin: 0 auto;
@@ -152,6 +153,69 @@ a {
   line-height: 30px;
   text-align: left;
   color: #ffffff;
+}
+
+.poss__title {
+  padding: 100px 0 40px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+  color: #434449;
+}
+.poss__cards {
+  display: flex;
+  gap: 12px;
+}
+.poss__card {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 32px 13px 21px 26px;
+}
+
+.card__title {
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 26px;
+  text-align: left;
+  padding: 23px 0 19px;
+  color: #29aae3;
+}
+.card__sub-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+  color: #434449;
+}
+.card__list {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 12px;
+  padding: 29px 0 40px;
+}
+.card__item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  padding-left: 20px;
+  color: #434449;
+}
+.card__item:before {
+  content: "•";
+  display: block;
+  position: relative;
+  max-width: 0;
+  max-height: 0;
+  left: -20px;
+  top: 0;
+  color: #29aae3;
+  font-size: 28px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,69 @@
+.possibilities {
+  &__container {
+    @extend %container;
+  }
+}
+
+.poss {
+  &__title {
+    padding: 100px 0 40px;
+    @extend %roboto;
+    @include font(36px, 500, 42px, center);
+    color: $medium;
+  }
+
+  &__cards {
+    display: flex;
+    gap: 12px;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    background-color: $card-bg;
+    border-radius: 20px;
+    padding: 32px 13px 21px 26px;
+  }
+}
+
+.card {
+  &__title {
+    @extend %roboto;
+    @include font(22px, 900, 26px, left);
+    padding: 23px 0 19px;
+    color: $sub-heading;
+  }
+
+  &__sub-title {
+    @extend %roboto;
+    @include font(20px, 500, 23px, left);
+    color: $medium;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 12px;
+    padding: 29px 0 40px;
+  }
+
+  &__item {
+    @extend %noto;
+    @include font(16px, 400, 21px, left);
+    padding-left: 20px;
+    color: $medium;
+    &:before {
+      content: "\2022";
+      display: block;
+      position: relative;
+      max-width: 0;
+      max-height: 0;
+      left: -20px;
+      top: 0;
+      color: $sub-heading;
+      font-size: 28px;
+    }
+  }
+}
