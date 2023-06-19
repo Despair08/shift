@@ -2,6 +2,7 @@
   background-image: $gradient, url("./assets/bg-images/hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 200px;
 
   &__container {
     @extend %container;
@@ -16,12 +17,20 @@
   }
 
   &__list {
+    display: flex;
+    flex-direction: column;
+    max-width: 655px;
+    gap: 16px;
+    padding-bottom: 32px;
   }
-}
-.heto {
+
   &__item {
+    @extend %roboto;
+    @include font(26px, 500, 30px, left);
+    color: $light;
   }
 }
+
 .button {
 }
 .button--main {

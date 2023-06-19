@@ -1,0 +1,12 @@
+.button--main {
+  background-color: $main-button;
+  @extend %transition;
+  &:hover {
+    background-color: $main-button--hover;
+    @extend %transition;
+  }
+  &:active {
+    background-color: $main-button--active;
+    @extend %transition;
+  }
+}
