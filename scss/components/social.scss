@@ -1,0 +1,64 @@
+.social {
+  &__container {
+    @extend %container;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    padding: 100px 0 50px;
+    @extend %roboto;
+    @include font(36px, 500, 42px, center);
+    color: $medium;
+  }
+
+  &__video {
+    width: 1000px;
+    height: 560px;
+  }
+
+  &__text {
+    @extend %roboto;
+    @include font(26px, 500, 30px, center);
+    color: $medium;
+  }
+
+  &__accent {
+    color: $sub-heading;
+  }
+
+  &__links {
+    padding-top: 60px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 26px;
+  }
+
+  &__items {
+  }
+
+  &__link {
+  }
+
+  &__facebook {
+  }
+
+  &__linkedin {
+  }
+
+  &__twitter {
+  }
+
+  &__youtube {
+  }
+}
+
+.iframe__container {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px;
+}

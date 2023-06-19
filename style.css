@@ -1,19 +1,19 @@
 @charset "UTF-8";
-.card__sub-title, .card__title, .poss__title, .hero__item, .hero__title, .section__title, .button {
+.social__text, .social__title, .management__title, .optimization__title, .scedule__title, .card__sub-title, .card__title, .poss__title, .hero__item, .hero__title, .button {
   font-family: "Roboto", sans-serif;
 }
 
-.card__item, .nav__link, .section__text, body {
+.management__text, .scedule__text, .card__item, .nav__link, body {
   font-family: "Noto Sans", sans-serif;
 }
 
-.possibilities__container, .hero__container, .header__container, .section__container {
+.social__container, .management__container, .optimization__container, .scedule__container, .possibilities__container, .hero__container, .header__container {
   max-width: 1240px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
-.button--optimization:active, .button--optimization:hover, .button--optimization, .button--main:active, .button--main:hover, .button--main, .button--sub-heading:active, .button--sub-heading:hover, .button--sub-heading {
+.button--management:active, .button--management:hover, .button--management, .button--optimization:active, .button--optimization:hover, .button--optimization, .button--main:active, .button--main:hover, .button--main, .button--sub-heading:active, .button--sub-heading:hover, .button--sub-heading {
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -101,35 +101,14 @@ a {
   background-color: #54a757;
 }
 
-.section__title {
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 42px;
-  text-align: center;
+.button--management {
+  background-color: #ff5966;
 }
-.section__text {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
+.button--management:hover {
+  background-color: #eb5560;
 }
-
-.section--scedule {
-  background: #e1e1e1 url("./assets/bg-images/desctop.png") no-repeat 75% 75%;
-}
-
-.section__title {
-  color: #29aae3;
-  padding: 70px 0 134px;
-}
-
-.section__text {
-  max-width: 475px;
-  padding-bottom: 40px;
-}
-
-.section__descr-container {
-  padding-bottom: 226px;
+.button--management:active {
+  background-color: #54a757;
 }
 
 .header {
@@ -259,6 +238,116 @@ a {
   top: 0;
   color: #29aae3;
   font-size: 28px;
+}
+
+.scedule {
+  background: #e1e1e1 url("./assets/bg-images/desctop.png") no-repeat 75% 75%;
+}
+.scedule__title {
+  padding: 70px 0 134px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+  color: #29aae3;
+}
+.scedule__text {
+  max-width: 475px;
+  padding-bottom: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.scedule__descr-container {
+  padding-bottom: 225px;
+}
+
+.optimization {
+  background: url("./assets/bg-images/laptop.png") no-repeat 25% 75%;
+}
+.optimization__container {
+  display: flex;
+  flex-direction: column;
+}
+.optimization__title {
+  padding: 100px 0 83px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+  color: #9033f9;
+}
+.optimization__text {
+  max-width: 475px;
+  padding-bottom: 40px;
+}
+.optimization__descr-container {
+  align-self: flex-end;
+  padding-bottom: 214px;
+}
+
+.management {
+  background: #e1e1e1 url("./assets/bg-images/mobile.png") no-repeat 75% 75%;
+}
+.management__title {
+  padding: 70px 0 133px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+}
+.management__descr-container {
+  padding-bottom: 181px;
+}
+.management__text {
+  max-width: 475px;
+  padding-bottom: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.social__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social__title {
+  padding: 100px 0 50px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+  color: #434449;
+}
+.social__video {
+  width: 1000px;
+  height: 560px;
+}
+.social__text {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: #434449;
+}
+.social__accent {
+  color: #29aae3;
+}
+.social__links {
+  padding-top: 60px;
+}
+.social__list {
+  display: flex;
+  gap: 26px;
+}
+.iframe__container {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

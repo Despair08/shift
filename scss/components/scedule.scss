@@ -1,0 +1,21 @@
+.scedule {
+  background: $section-bg url("./assets/bg-images/desctop.png") no-repeat 75% 75%;
+  &__container {
+    @extend %container;
+  }
+  &__title {
+    padding: 70px 0 134px;
+    @extend %roboto;
+    @include font(36px, 500, 42px, center);
+    color: $sub-heading;
+  }
+  &__text {
+    max-width: 475px;
+    padding-bottom: 40px;
+    @extend %noto;
+    @include font(18px, 400, 24px);
+  }
+  &__descr-container {
+    padding-bottom: 225px;
+  }
+}

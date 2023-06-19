@@ -1,0 +1,12 @@
+.button--management {
+  background-color: $management-color;
+  @extend %transition;
+  &:hover {
+    background-color: $management-color--hover;
+    @extend %transition;
+  }
+  &:active {
+    background-color: $main-button;
+    @extend %transition;
+  }
+}

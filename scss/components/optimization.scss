@@ -1,8 +1,6 @@
 .optimization {
   background: url("./assets/bg-images/laptop.png") no-repeat 25% 75%;
-  padding-bottom: 214px;
-}
-.opt {
+
   &__container {
     @extend %container;
     display: flex;
@@ -14,12 +12,12 @@
     @include font(36px, 500, 42px, center);
     color: $optimization-color;
   }
-  &__descr {
+  &__text {
     max-width: 475px;
     padding-bottom: 40px;
   }
-}
-
-.descr__container {
-  align-self: flex-end;
+  &__descr-container {
+    align-self: flex-end;
+    padding-bottom: 214px;
+  }
 }
