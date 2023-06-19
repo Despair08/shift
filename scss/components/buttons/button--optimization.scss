@@ -1,0 +1,12 @@
+.button--optimization {
+  background-color: $optimization-color;
+  @extend %transition;
+  &:hover {
+    background-color: $optimization-color--hover;
+    @extend %transition;
+  }
+  &:active {
+    background-color: $main-button;
+    @extend %transition;
+  }
+}

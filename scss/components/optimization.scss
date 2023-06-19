@@ -1,0 +1,27 @@
+.optimization {
+  background-image: url("./assets/bg-images/laptop.png");
+  background-repeat: no-repeat;
+  background-position: 25% 75%;
+  padding-bottom: 214px;
+}
+.opt {
+  &__container {
+    @extend %container;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    padding: 100px 0 83px;
+    @extend %roboto;
+    @include font(36px, 500, 42px, center);
+    color: $optimization-color;
+  }
+  &__descr {
+    max-width: 475px;
+    padding-bottom: 40px;
+  }
+}
+
+.descr__container {
+  align-self: flex-end;
+}
