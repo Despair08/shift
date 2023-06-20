@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.social__text, .social__title, .management__title, .optimization__title, .scedule__title, .card__sub-title, .card__title, .poss__title, .hero__item, .hero__title, .button {
+.copyright__link, .footer__copyright, .footer__link, .social__text, .social__title, .management__title, .optimization__title, .scedule__title, .card__sub-title, .card__title, .poss__title, .hero__item, .hero__title, .button {
   font-family: "Roboto", sans-serif;
 }
 
@@ -7,7 +7,7 @@
   font-family: "Noto Sans", sans-serif;
 }
 
-.social__container, .management__container, .optimization__container, .scedule__container, .possibilities__container, .hero__container, .header__container {
+.footer__container, .social__container, .management__container, .optimization__container, .scedule__container, .possibilities__container, .hero__container, .header__container {
   max-width: 1240px;
   padding: 0 20px;
   margin: 0 auto;
@@ -348,6 +348,58 @@ a {
   width: 100%;
   text-align: center;
   padding-bottom: 100px;
+}
+
+.footer {
+  background-color: #29aae3;
+}
+.footer__nav {
+  padding: 55px 0 24px;
+  border-bottom: 2px solid #ffffff;
+}
+.footer__list {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+.footer__link {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+  color: #ffffff;
+}
+.footer__copyright {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.store__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 20px;
+}
+.store__item {
+  gap: 20px;
+}
+
+.copyright__list {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 83px;
+  gap: 5px;
+}
+.copyright__link {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
