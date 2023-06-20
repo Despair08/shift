@@ -17,9 +17,17 @@
   transition: background-color 0.3s ease-in-out;
 }
 
+.burger__menu--active > span:after, .burger__menu--active > span:before, .burger__menu--active > span, .burger__menu--active, .burger__menu > span:before, .burger__menu > span:after, .burger__menu > span, .burger__menu {
+  transition: all 0.3s ease-in-out;
+}
+
 html,
 body {
   height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -109,6 +117,47 @@ a {
 }
 .button--management:active {
   background-color: #54a757;
+}
+
+.burger__menu {
+  display: none;
+  position: relative;
+  width: 32px;
+  height: 22px;
+}
+.burger__menu > span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+.burger__menu > span:before, .burger__menu > span:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+.burger__menu > span:before {
+  top: 10px;
+}
+.burger__menu > span:after {
+  top: 20px;
+}
+
+.burger__menu--active > span {
+  top: 10px;
+  transform: rotate(-45deg);
+}
+.burger__menu--active > span:before {
+  transform: scale(0);
+}
+.burger__menu--active > span:after {
+  top: 0;
+  transform: rotate(90deg);
 }
 
 .header {
