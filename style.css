@@ -13,11 +13,16 @@
   margin: 0 auto;
 }
 
+@media (max-width: 420px) {
+  .footer__container, .social__container, .management__container, .optimization__container, .scedule__container, .possibilities__container, .hero__container, .header__container {
+    max-width: 405px;
+  }
+}
 .button--management:active, .button--management:hover, .button--management, .button--optimization:active, .button--optimization:hover, .button--optimization, .button--main:active, .button--main:hover, .button--main, .button--sub-heading:active, .button--sub-heading:hover, .button--sub-heading {
   transition: background-color 0.3s ease-in-out;
 }
 
-.burger__menu--active > span:after, .burger__menu--active > span:before, .burger__menu--active > span, .burger__menu--active, .burger__menu > span:before, .burger__menu > span:after, .burger__menu > span, .burger__menu {
+.burger__menu--clicked > span:after, .burger__menu--clicked > span:before, .burger__menu--clicked > span, .burger__menu--clicked, .burger__menu > span:before, .burger__menu > span:after, .burger__menu > span, .burger__menu {
   transition: all 0.3s ease-in-out;
 }
 
@@ -61,6 +66,10 @@ li {
 
 a {
   text-decoration: none;
+}
+
+.lock {
+  overflow: hidden;
 }
 
 .wrapper {
@@ -148,18 +157,23 @@ a {
   top: 20px;
 }
 
-.burger__menu--active > span {
+.burger__menu--clicked > span {
   top: 10px;
   transform: rotate(-45deg);
 }
-.burger__menu--active > span:before {
+.burger__menu--clicked > span:before {
   transform: scale(0);
 }
-.burger__menu--active > span:after {
+.burger__menu--clicked > span:after {
   top: 0;
   transform: rotate(90deg);
 }
 
+@media (max-width: 1024px) {
+  .burger__menu {
+    display: block;
+  }
+}
 .header {
   background-color: #000000;
 }
@@ -191,6 +205,28 @@ a {
   color: #ffffff;
 }
 
+@media (max-width: 420px) {
+  .header__nav {
+    display: none;
+    min-height: 100vh;
+    top: -100vh;
+    transition: top 1s ease;
+  }
+  .header__nav--opened {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000000;
+    transition: top 1s ease;
+  }
+  .nav__list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .main {
   flex-grow: 1;
 }

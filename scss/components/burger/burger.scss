@@ -31,7 +31,7 @@
   }
 }
 
-.burger__menu--active {
+.burger__menu--clicked {
   @extend %burger-transition;
   & > span {
     top: 10px;
@@ -46,5 +46,11 @@
       transform: rotate(90deg);
       @extend %burger-transition;
     }
+  }
+}
+
+@media (max-width: 1024px) {
+  .burger__menu {
+    display: block;
   }
 }
