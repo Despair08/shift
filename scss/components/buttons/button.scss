@@ -5,3 +5,9 @@
   border-radius: 26px;
   color: $light;
 }
+
+@media (max-width: 1024px) {
+  .button {
+    display: block;
+  }
+}

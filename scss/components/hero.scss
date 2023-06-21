@@ -31,7 +31,16 @@
   }
 }
 
-.button {
-}
-.button--main {
+@media (max-width: 405px) {
+  .hero {
+    background-position: center;
+    &__title {
+      @include font(32px, 500, 37px, left);
+    }
+
+    &__item {
+      @include font(20px, 500, 23px, left);
+      color: $light;
+    }
+  }
 }
