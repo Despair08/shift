@@ -19,3 +19,48 @@
     padding-bottom: 225px;
   }
 }
+
+@media (max-width: 1150px) {
+  .scedule {
+    background-size: 30em;
+  }
+}
+
+@media (max-width: 1050px) {
+  .scedule {
+    background-position: center 40%;
+    &__descr-container {
+      padding: 225px 0 30px;
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  .scedule {
+    background-position: center 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .scedule {
+    &__title {
+      @include font(28px, 400, 32px, center);
+    }
+  }
+}
+
+@media (max-width: 530px) {
+  .scedule {
+    background-size: 20em;
+  }
+}
+
+@media (max-width: 400px) {
+  .scedule {
+    background-size: 20em;
+    background-position-y: 40%;
+    &__title {
+      padding-bottom: 32px;
+    }
+  }
+}

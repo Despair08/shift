@@ -14,6 +14,7 @@
 
   &__cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 12px;
     padding-bottom: 100px;
   }
@@ -69,5 +70,35 @@
   }
 }
 
-@media (max-width: 405px) {
+@media (max-width: 1120px) {
+  .poss {
+    &__cards {
+      justify-content: center;
+    }
+    &__card {
+      flex-basis: 40%;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .poss {
+    &__cards {
+      justify-content: center;
+    }
+    &__card {
+      flex-basis: 60%;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .poss {
+    &__title {
+      @include font(28px, 400, 32px, center);
+    }
+    &__card {
+      flex-basis: auto;
+    }
+  }
 }

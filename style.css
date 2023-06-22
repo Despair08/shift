@@ -88,7 +88,7 @@ a {
   color: #ffffff;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
   .button {
     display: block;
   }
@@ -174,7 +174,7 @@ a {
   transform: rotate(90deg);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 930px) {
   .burger__menu {
     display: block;
   }
@@ -198,6 +198,7 @@ a {
 
 .nav__list {
   display: flex;
+  align-items: center;
   gap: 30px;
 }
 .nav__link {
@@ -210,7 +211,12 @@ a {
   color: #ffffff;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 1030px) {
+  .nav__list {
+    gap: 15px;
+  }
+}
+@media (max-width: 930px) {
   .header__nav {
     position: absolute;
     min-height: 100vh;
@@ -294,6 +300,7 @@ a {
 }
 .poss__cards {
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
   padding-bottom: 100px;
 }
@@ -348,6 +355,33 @@ a {
   font-size: 28px;
 }
 
+@media (max-width: 1120px) {
+  .poss__cards {
+    justify-content: center;
+  }
+  .poss__card {
+    flex-basis: 40%;
+  }
+}
+@media (max-width: 700px) {
+  .poss__cards {
+    justify-content: center;
+  }
+  .poss__card {
+    flex-basis: 60%;
+  }
+}
+@media (max-width: 400px) {
+  .poss__title {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+  }
+  .poss__card {
+    flex-basis: auto;
+  }
+}
 .scedule {
   background: #e1e1e1 url("./assets/bg-images/desctop.png") no-repeat 75% 75%;
 }
@@ -371,6 +405,46 @@ a {
   padding-bottom: 225px;
 }
 
+@media (max-width: 1150px) {
+  .scedule {
+    background-size: 30em;
+  }
+}
+@media (max-width: 1050px) {
+  .scedule {
+    background-position: center 40%;
+  }
+  .scedule__descr-container {
+    padding: 225px 0 30px;
+  }
+}
+@media (max-width: 920px) {
+  .scedule {
+    background-position: center 60%;
+  }
+}
+@media (max-width: 600px) {
+  .scedule__title {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+  }
+}
+@media (max-width: 530px) {
+  .scedule {
+    background-size: 20em;
+  }
+}
+@media (max-width: 400px) {
+  .scedule {
+    background-size: 20em;
+    background-position-y: 40%;
+  }
+  .scedule__title {
+    padding-bottom: 32px;
+  }
+}
 .optimization {
   background: url("./assets/bg-images/laptop.png") no-repeat 25% 75%;
 }
@@ -395,6 +469,46 @@ a {
   padding-bottom: 214px;
 }
 
+@media (max-width: 1150px) {
+  .optimization {
+    background-size: 30em;
+  }
+}
+@media (max-width: 1050px) {
+  .optimization {
+    background-position: center 40%;
+  }
+  .optimization__descr-container {
+    padding: 225px 0 30px;
+  }
+}
+@media (max-width: 920px) {
+  .optimization {
+    background-position: center 60%;
+  }
+}
+@media (max-width: 600px) {
+  .optimization__title {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+  }
+}
+@media (max-width: 530px) {
+  .optimization {
+    background-size: 20em;
+  }
+}
+@media (max-width: 400px) {
+  .optimization {
+    background-size: 20em;
+    background-position-y: 40%;
+  }
+  .optimization__title {
+    padding-bottom: 32px;
+  }
+}
 .management {
   background: #e1e1e1 url("./assets/bg-images/mobile.png") no-repeat 75% 75%;
 }
@@ -404,6 +518,7 @@ a {
   font-weight: 500;
   line-height: 42px;
   text-align: center;
+  color: #ff5966;
 }
 .management__descr-container {
   padding-bottom: 181px;
@@ -417,6 +532,46 @@ a {
   text-align: left;
 }
 
+@media (max-width: 1150px) {
+  .management {
+    background-size: 30em;
+  }
+}
+@media (max-width: 1050px) {
+  .management {
+    background-position: center 40%;
+  }
+  .management__descr-container {
+    padding: 225px 0 30px;
+  }
+}
+@media (max-width: 920px) {
+  .management {
+    background-position: center 60%;
+  }
+}
+@media (max-width: 600px) {
+  .management__title {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+  }
+}
+@media (max-width: 530px) {
+  .management {
+    background-size: 20em;
+  }
+}
+@media (max-width: 400px) {
+  .management {
+    background-size: 12em;
+    background-position-y: 30%;
+  }
+  .management__title {
+    padding-bottom: 50px;
+  }
+}
 .social__container {
   display: flex;
   flex-direction: column;

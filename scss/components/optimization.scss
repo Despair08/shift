@@ -21,3 +21,48 @@
     padding-bottom: 214px;
   }
 }
+
+@media (max-width: 1150px) {
+  .optimization {
+    background-size: 30em;
+  }
+}
+
+@media (max-width: 1050px) {
+  .optimization {
+    background-position: center 40%;
+    &__descr-container {
+      padding: 225px 0 30px;
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  .optimization {
+    background-position: center 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .optimization {
+    &__title {
+      @include font(28px, 400, 32px, center);
+    }
+  }
+}
+
+@media (max-width: 530px) {
+  .optimization {
+    background-size: 20em;
+  }
+}
+
+@media (max-width: 400px) {
+  .optimization {
+    background-size: 20em;
+    background-position-y: 40%;
+    &__title {
+      padding-bottom: 32px;
+    }
+  }
+}
