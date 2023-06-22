@@ -16,6 +16,7 @@
 @media (max-width: 420px) {
   .footer__container, .social__container, .management__container, .optimization__container, .scedule__container, .possibilities__container, .hero__container, .header__container {
     max-width: 405px;
+    padding: 0 15px;
   }
 }
 .button--management:active, .button--management:hover, .button--management, .button--optimization:active, .button--optimization:hover, .button--optimization, .button--main:active, .button--main:hover, .button--main, .button--sub-heading:active, .button--sub-heading:hover, .button--sub-heading {
@@ -217,6 +218,10 @@ a {
   }
 }
 @media (max-width: 930px) {
+  .header__inner {
+    gap: 15px;
+    padding-left: 10px;
+  }
   .header__nav {
     position: absolute;
     min-height: 100vh;
@@ -655,7 +660,7 @@ a {
   .social__list {
     gap: 25px;
   }
-  .social__item {
+  .social__img {
     width: 48px;
     height: 48px;
   }
@@ -710,6 +715,18 @@ a {
   line-height: 23px;
   text-align: center;
   color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .copyright {
+    padding-bottom: 50px;
+  }
+  .copyright__link {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -41,6 +41,11 @@
 }
 
 @media (max-width: 930px) {
+  .header__inner {
+    gap: 15px;
+    padding-left: 10px;
+  }
+
   .header__nav {
     position: absolute;
     min-height: 100vh;

@@ -55,3 +55,12 @@
     color: $light;
   }
 }
+
+@media (max-width: 600px) {
+  .copyright {
+    padding-bottom: 50px;
+    &__link {
+      @include font(18px, 500, 20px, center);
+    }
+  }
+}
