@@ -197,6 +197,11 @@ a {
   color: #ffffff;
 }
 
+.logo__img {
+  width: 250px;
+  height: 70px;
+}
+
 .nav__list {
   display: flex;
   align-items: center;
