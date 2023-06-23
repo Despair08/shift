@@ -253,7 +253,7 @@ a {
 }
 
 .hero {
-  background-image: linear-gradient(104.58deg, rgba(0, 0, 0, 0.52) 55.87%, rgba(0, 0, 0, 0.255667) 89.51%, rgba(0, 0, 0, 0) 108.26%), url("./assets/bg-images/hero-bg.jpg");
+  background-image: linear-gradient(104.58deg, rgba(0, 0, 0, 0.52) 55.87%, rgba(0, 0, 0, 0.255667) 89.51%, rgba(0, 0, 0, 0) 108.26%), url("./assets/bg-images/hero-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 200px;
@@ -393,7 +393,7 @@ a {
   }
 }
 .scedule {
-  background: #e1e1e1 url("./assets/bg-images/desctop.png") no-repeat 75% 75%;
+  background: #e1e1e1 url("./assets/bg-images/desctop.webp") no-repeat 75% 75%;
 }
 .scedule__title {
   padding: 70px 0 134px;
@@ -456,7 +456,7 @@ a {
   }
 }
 .optimization {
-  background: url("./assets/bg-images/laptop.png") no-repeat 25% 75%;
+  background: url("./assets/bg-images/laptop.webp") no-repeat 25% 75%;
 }
 .optimization__container {
   display: flex;
@@ -520,7 +520,7 @@ a {
   }
 }
 .management {
-  background: #e1e1e1 url("./assets/bg-images/mobile.png") no-repeat 75% 75%;
+  background: #e1e1e1 url("./assets/bg-images/mobile.webp") no-repeat 75% 75%;
 }
 .management__title {
   padding: 70px 0 133px;
