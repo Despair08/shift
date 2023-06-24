@@ -30,19 +30,23 @@
   .scedule {
     background-position: center 40%;
     &__descr-container {
-      padding: 225px 0 30px;
+      padding: 250px 0 30px;
     }
   }
 }
 
 @media (max-width: 920px) {
   .scedule {
-    background-position: center 60%;
+    background-position: center 50%;
+    &__descr-container {
+      padding-top: 260px;
+    }
   }
 }
 
 @media (max-width: 600px) {
   .scedule {
+    background-position: center 40%;
     &__title {
       @include font(28px, 400, 32px, center);
     }

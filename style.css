@@ -425,15 +425,21 @@ a {
     background-position: center 40%;
   }
   .scedule__descr-container {
-    padding: 225px 0 30px;
+    padding: 250px 0 30px;
   }
 }
 @media (max-width: 920px) {
   .scedule {
-    background-position: center 60%;
+    background-position: center 50%;
+  }
+  .scedule__descr-container {
+    padding-top: 260px;
   }
 }
 @media (max-width: 600px) {
+  .scedule {
+    background-position: center 40%;
+  }
   .scedule__title {
     font-size: 28px;
     font-weight: 400;
@@ -479,12 +485,22 @@ a {
   padding-bottom: 214px;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1520px) {
+  .optimization {
+    background-position-x: 20%;
+  }
+}
+@media (max-width: 1380px) {
   .optimization {
     background-size: 30em;
   }
 }
-@media (max-width: 1050px) {
+@media (max-width: 1150px) {
+  .optimization {
+    background-position-x: 15%;
+  }
+}
+@media (max-width: 1120px) {
   .optimization {
     background-position: center 40%;
   }
@@ -494,7 +510,7 @@ a {
 }
 @media (max-width: 920px) {
   .optimization {
-    background-position: center 60%;
+    background-position: center 40%;
   }
 }
 @media (max-width: 600px) {
@@ -542,26 +558,32 @@ a {
   text-align: left;
 }
 
-@media (max-width: 1150px) {
-  .management {
-    background-size: 30em;
-  }
-}
 @media (max-width: 1050px) {
   .management {
-    background-position: right 40%;
+    background-position: 95% 45%;
     background-size: 19em;
   }
   .management__descr-container {
     padding: 225px 0 30px;
   }
 }
-@media (max-width: 920px) {
+@media (max-width: 820px) {
   .management {
-    background-position: center 60%;
+    background-position: 55% 35%;
+  }
+  .management__descr-container {
+    padding-top: 300px;
+  }
+}
+@media (max-width: 660px) {
+  .management {
+    background-position-y: 40%;
   }
 }
 @media (max-width: 600px) {
+  .management {
+    background-position-y: 30%;
+  }
   .management__title {
     font-size: 28px;
     font-weight: 400;
@@ -569,9 +591,9 @@ a {
     text-align: center;
   }
 }
-@media (max-width: 530px) {
+@media (max-width: 520px) {
   .management {
-    background-size: 20em;
+    background-position-y: 35%;
   }
 }
 @media (max-width: 400px) {

@@ -22,13 +22,25 @@
   }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1520px) {
+  .optimization {
+    background-position-x: 20%;
+  }
+}
+
+@media (max-width: 1380px) {
   .optimization {
     background-size: 30em;
   }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1150px) {
+  .optimization {
+    background-position-x: 15%;
+  }
+}
+
+@media (max-width: 1120px) {
   .optimization {
     background-position: center 40%;
     &__descr-container {
@@ -39,7 +51,7 @@
 
 @media (max-width: 920px) {
   .optimization {
-    background-position: center 60%;
+    background-position: center 40%;
   }
 }
 
